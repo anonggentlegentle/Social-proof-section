@@ -1,0 +1,132 @@
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  color-scheme: dark light;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.5rem;
+  display: grid;
+  place-items: center;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  width: min(90%, 100rem);
+  display: flex;
+  flex-direction: column;
+  row-gap: 8rem;
+}
+.container__top {
+  display: flex;
+  justify-content: space-between;
+}
+.container__left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.container__right {
+  width: 40%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+.container__rating {
+  display: flex;
+  column-gap: 2rem;
+  padding: 1.5rem 2.5rem;
+  background-color: hsl(300deg, 24%, 96%);
+  font-weight: 700;
+  color: hsl(300deg, 43%, 22%);
+  border-radius: 0.75rem;
+  align-items: center;
+}
+.container__rating--1 {
+  translate: -8rem 0;
+}
+.container__rating--2 {
+  translate: -4rem 0;
+}
+.container__stars {
+  display: flex;
+  column-gap: 1rem;
+}
+.container__text {
+  line-height: 1.5;
+  color: hsl(303deg, 10%, 53%);
+  font-weight: 500;
+}
+.container__reviews {
+  display: flex;
+  column-gap: 2rem;
+}
+.container__review-box {
+  background-color: hsl(300deg, 43%, 22%);
+  border-radius: 0.75rem;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.container__review-box--1 {
+  translate: 0 -2rem;
+}
+.container__review-box--2 {
+  translate: 0 -1rem;
+}
+.container__profile {
+  display: flex;
+  column-gap: 2rem;
+  align-items: center;
+}
+.container__profile-photo {
+  width: 3.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.container__profile-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.4rem;
+}
+.container__name {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 500;
+}
+.container__verified {
+  color: hsl(333deg, 80%, 67%);
+  font-weight: 400;
+}
+.container__review {
+  line-height: 1.5;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.heading-1 {
+  color: hsl(300deg, 43%, 22%);
+  font-size: 5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
